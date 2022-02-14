@@ -1,9 +1,10 @@
 import React from "react";
 
-function TopHeader() {
+function TopHeader(props: any) {
   return (
     <div>
-      <h1>MainHome</h1>
+      <h1>TopHeader</h1>
+      {props.children}
     </div>
   );
 }
