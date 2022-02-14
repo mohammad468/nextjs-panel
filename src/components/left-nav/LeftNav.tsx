@@ -15,7 +15,7 @@ function LeftNav(props: any) {
         >
           <div>
             <h1>Navbar</h1>
-            <Link href="/home">
+            <Link href="/">
               <a>Home</a>
             </Link>
             <br />
