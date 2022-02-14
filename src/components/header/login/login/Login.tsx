@@ -18,12 +18,13 @@ const Login = () => {
         backdrop="static" //for close just with button
         keyboard={false} //for dont close with Esc on keyboard
         centered //for center align modal
+        className="my-modal"
       >
-        <Modal.Header closeButton>
+        <Modal.Header closeButton closeVariant="white" className="my-modal">
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Login</Modal.Body>
-        <Modal.Footer>
+        <Modal.Body className="my-modal .modal-content">Login</Modal.Body>
+        <Modal.Footer className="my-modal">
           <Button
             variant="secondary"
             className="gray-button"
