@@ -23,7 +23,7 @@ const Login = () => {
         <Modal.Header closeButton closeVariant="white" className="my-modal">
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
-        <Modal.Body className="my-modal .modal-content">Login</Modal.Body>
+        <Modal.Body className="my-modal">Login</Modal.Body>
         <Modal.Footer className="my-modal">
           <Button
             variant="secondary"
