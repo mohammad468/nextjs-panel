@@ -1,11 +1,12 @@
 import React from "react";
+import { Col } from "react-bootstrap";
 
 function TopHeader(props: any) {
   return (
-    <div>
+    <Col>
       <h1>TopHeader</h1>
       {props.children}
-    </div>
+    </Col>
   );
 }
 

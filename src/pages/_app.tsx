@@ -1,5 +1,5 @@
 import "./../../styles/globals.scss";
-import "../components/about.scss";
+import "../components/about/about.scss";
 import type { AppProps } from "next/app";
 
 import LeftNav from "../components/left-nav/LeftNav";

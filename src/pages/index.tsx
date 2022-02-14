@@ -1,8 +1,5 @@
 import type { NextPage } from "next";
-import { Col, Container, Row } from "react-bootstrap";
-import TopHeader from "../components/header/TopHeader";
-import LeftNav from "../components/left-nav/LeftNav";
-import MainHome from "../components/main/MainHome";
+import { Container } from "react-bootstrap";
 
 const Home: NextPage = () => {
   return (

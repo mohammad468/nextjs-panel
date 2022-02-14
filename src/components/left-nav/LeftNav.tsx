@@ -23,11 +23,11 @@ function LeftNav(props: any) {
               <a>about</a>
             </Link>
             <br />
-            <Link href="/home">
+            <Link href="/contact">
               <a>contact</a>
             </Link>
             <br />
-            <Link href="/home">
+            <Link href="/product">
               <a>product</a>
             </Link>
             <br />
