@@ -1,0 +1,11 @@
+@import "../../../styles/index";
+
+.bg-color {
+  background-color: $bg-dark;
+  .brand-text-white {
+    color: $white;
+    .brand-text-blue {
+      color: $primary;
+    }
+  }
+}

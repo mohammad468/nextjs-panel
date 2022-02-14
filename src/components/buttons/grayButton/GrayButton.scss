@@ -1,0 +1,10 @@
+@import "../../../../styles/index";
+
+.gray-button {
+  background-color: $gray !important;
+  border: none !important;
+  border-radius: 12px !important;
+  &:hover {
+    background-color: $gray-hover !important;
+  }
+}
