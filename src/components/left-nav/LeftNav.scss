@@ -30,8 +30,8 @@
   flex-direction: column;
 
   .navbar-item {
-    font-size: 1.3rem;
-    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: normal;
     color: $white;
     border-radius: 12px;
     opacity: 0.5;
@@ -42,8 +42,8 @@
   }
 
   .navbar-item-active {
-    font-size: 1.3rem;
-    font-weight: bolder;
+    font-size: 1.2rem;
+    font-weight: bold;
     color: $white;
     background-color: $primary;
     border-radius: 12px;

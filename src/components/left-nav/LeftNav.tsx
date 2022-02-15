@@ -92,17 +92,19 @@ function LeftNav(props: any) {
             overflowY: "auto",
           }}
         >
-          <Row className="search-left-nav py-2 px-2 my-2 d-flex ">
-            <Col xxl="2" xl="2" lg="2" md="2">
-              <BiSearch className="col text-white search-icon-left-nav" />
-            </Col>
-            <Col>
-              <input
-                className="mt-2 col-xxl-12 col-xl-12 col-lg-12 col-md-12 search-input-left-nav"
-                placeholder="Search"
-              />
-            </Col>
-          </Row>
+          <div className="py-2 px-3 my-2">
+            <Row className="search-left-nav py-2 px-2 my-2 d-flex ">
+              <Col xxl="2" xl="2" lg="2" md="2">
+                <BiSearch className="col text-white search-icon-left-nav" />
+              </Col>
+              <Col>
+                <input
+                  className="mt-2 col-xxl-12 col-xl-12 col-lg-12 col-md-12 search-input-left-nav"
+                  placeholder="Search"
+                />
+              </Col>
+            </Row>
+          </div>
           {/* // ? start navigation */}
           <div>
             <h1 className="text-white text-capitalize header-left-nav mt-3 ms-4">
