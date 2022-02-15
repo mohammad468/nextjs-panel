@@ -1,9 +1,10 @@
 import React from "react";
+import SlideShow from "./slideShow/SlideShow";
 
 function MainHome() {
   return (
-    <div>
-      <h1>MainHome</h1>
+    <div className="my-rounded">
+      <SlideShow />
     </div>
   );
 }

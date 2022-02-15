@@ -1,9 +1,10 @@
 import type { NextPage } from "next";
+import MainHome from "../components/main/MainHome";
 
 const Home: NextPage = () => {
   return (
-    <div className="text-white text-center">
-      <h1>homePage</h1>
+    <div>
+      <MainHome />
     </div>
   );
 };
