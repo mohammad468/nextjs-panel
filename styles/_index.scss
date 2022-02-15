@@ -1,8 +1,17 @@
 $primary: #104ad0;
 $gray: #2a2f39;
-$gray-hover:#444b5a;
+$gray-hover: #444b5a;
 $white: #ffffff;
 $bg-dark: #1a1d22;
 $bg-darker: #14161a;
+$bg-dark-hover: #2a2f39;
+
+.bg-darker {
+  background-color: $bg-darker;
+}
+
+.bg-dark {
+  background-color: $bg-dark;
+}
 
 @import "../node_modules//bootstrap/scss/bootstrap.scss";

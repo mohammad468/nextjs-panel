@@ -1,0 +1,79 @@
+@import "../../../styles/index";
+
+.bg-navbar {
+  background-color: $bg-dark !important;
+
+  /* width */
+  &::-webkit-scrollbar {
+    width: 7px !important;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: $bg-dark;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $gray-hover;
+    border-radius: 20px;
+    transition: all ease-in-out 200ms;
+  }
+}
+
+.header-left-nav {
+  font-size: 1.2rem;
+}
+
+.navbar-items {
+  display: flex;
+  flex-direction: column;
+
+  .navbar-item {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: $white;
+    border-radius: 12px;
+    opacity: 0.5;
+    transition: all ease-in-out 100ms;
+    &:hover {
+      background-color: $bg-dark-hover;
+    }
+  }
+
+  .navbar-item-active {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: $white;
+    background-color: $primary;
+    border-radius: 12px;
+    padding-left: 2rem !important;
+    transition: all ease-in-out 100ms;
+  }
+}
+
+.search-left-nav {
+  background-color: $gray;
+  padding: 0;
+  margin: 0;
+  border-radius: 12px;
+
+  .search-input-left-nav {
+    margin: 0 !important;
+    background-color: $gray !important;
+    border: none !important;
+    outline: none !important;
+    color: white;
+
+    &::placeholder {
+      color: $white;
+      opacity: 0.5;
+      font-size: 1.2rem;
+    }
+  }
+
+  .search-icon-left-nav {
+    font-size: 1.5rem;
+    width: 20px;
+  }
+}

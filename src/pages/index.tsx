@@ -1,11 +1,10 @@
 import type { NextPage } from "next";
-import { Container } from "react-bootstrap";
 
 const Home: NextPage = () => {
   return (
-    <Container fluid>
-      <h1>home Page</h1>
-    </Container>
+    <div className="text-white text-center">
+      <h1>homePage</h1>
+    </div>
   );
 };
 

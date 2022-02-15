@@ -1,9 +1,10 @@
 import React from "react";
+import Product from "../../components/product/Product";
 
 const index = () => {
   return (
-    <div>
-      <h1>productPage</h1>
+    <div className="text-white text-center">
+      <Product />
     </div>
   );
 };

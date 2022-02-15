@@ -1,0 +1,24 @@
+@import "../../../styles/index";
+
+.bg-product {
+  background-color: $bg-darker;
+}
+
+.scroll-product{
+    /* width */
+  &::-webkit-scrollbar {
+    width: 7px !important;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: $bg-dark;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $gray-hover;
+    border-radius: 20px;
+    transition: all ease-in-out 200ms;
+  }
+}

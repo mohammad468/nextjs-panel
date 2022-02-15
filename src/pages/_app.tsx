@@ -8,6 +8,8 @@ import "../components/buttons/blueButton/BlueButton.scss";
 import "../components/buttons/grayButton/GrayButton.scss";
 import "../components/header/navItems/NavItems.scss";
 import "../components/header/login/login/Login.scss";
+import "./../components/left-nav/LeftNav.scss";
+import "../components/product/Product.scss";
 
 import LeftNav from "../components/left-nav/LeftNav";
 import TopHeader from "../components/header/TopHeader";
