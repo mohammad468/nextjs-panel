@@ -1,4 +1,4 @@
-import "./../../styles/globals.scss";
+import "./../styles/globals.scss";
 import "../components/about/about.scss";
 import type { AppProps } from "next/app";
 
@@ -8,7 +8,7 @@ import "../components/buttons/blueButton/BlueButton.scss";
 import "../components/buttons/grayButton/GrayButton.scss";
 import "../components/header/navItems/NavItems.scss";
 import "../components/header/login/login/Login.scss";
-import "./../components/left-nav/LeftNav.scss";
+import "../components/left-nav/LeftNav.scss";
 import "../components/product/Product.scss";
 
 import LeftNav from "../components/left-nav/LeftNav";
