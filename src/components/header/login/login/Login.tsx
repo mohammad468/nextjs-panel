@@ -20,11 +20,15 @@ const Login = () => {
         centered //for center align modal
         className="my-modal"
       >
-        <Modal.Header closeButton closeVariant="white" className="my-modal">
+        <Modal.Header
+          closeButton
+          closeVariant="white"
+          className="my-modal text-white"
+        >
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
-        <Modal.Body className="my-modal">Login</Modal.Body>
-        <Modal.Footer className="my-modal">
+        <Modal.Body className="my-modal text-white">Login</Modal.Body>
+        <Modal.Footer className="my-modal text-white">
           <Button
             variant="secondary"
             className="gray-button"

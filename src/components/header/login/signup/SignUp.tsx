@@ -20,11 +20,11 @@ const SignUp = () => {
         keyboard={false} //for dont close with Esc on keyboard
         centered //for center align modal
       >
-        <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+        <Modal.Header closeVariant="white" closeButton>
+          <Modal.Title className="text-white">Modal heading</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Sign Up</Modal.Body>
-        <Modal.Footer>
+        <Modal.Body className="text-white">Sign Up</Modal.Body>
+        <Modal.Footer className="text-white">
           <Button
             variant="secondary"
             className="gray-button"
