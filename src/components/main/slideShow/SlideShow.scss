@@ -11,8 +11,9 @@
 .carousel-indicators {
   button {
     width: 10px !important;
-    height: 10px !important;
+    height: 9px !important;
     border-radius: 50% !important;
+    transition: all ease-in-out 200ms;
   }
 }
 

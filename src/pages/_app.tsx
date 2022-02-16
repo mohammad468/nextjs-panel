@@ -15,6 +15,7 @@ import "../components/main/slideShow/SlideShow.scss";
 import LeftNav from "../components/left-nav/LeftNav";
 import TopHeader from "../components/header/TopHeader";
 import { Container } from "react-bootstrap";
+import Shop from "../components/shop/Shop";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

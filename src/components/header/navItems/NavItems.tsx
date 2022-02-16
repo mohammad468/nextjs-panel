@@ -10,8 +10,8 @@ const NavItems = () => {
   }[];
 
   const navbarItem: navItems = [
-    { nameItem: "MyHome", id: 2, href: "/" },
-    { nameItem: "About", id: 3, href: "about" },
+    { nameItem: "home", id: 2, href: "/" },
+    { nameItem: "shop", id: 3, href: "/shop" },
     { nameItem: "Contact", id: 4, href: "contact" },
   ];
 

@@ -18,7 +18,7 @@ const SignUp = () => {
         onHide={handleClose}
         backdrop="static" //for close just with button
         keyboard={false} //for dont close with Esc on keyboard
-        centered //for center align modal
+        //centered //for center align modal
       >
         <Modal.Header closeVariant="white" closeButton>
           <Modal.Title className="text-white">Modal heading</Modal.Title>
