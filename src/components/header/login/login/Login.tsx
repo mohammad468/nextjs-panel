@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Button, Modal } from "react-bootstrap";
+import { Button, Col, Modal } from "react-bootstrap";
+import { LoginBody } from "./loginBody/LoginBody";
 
 const Login = () => {
   const [show, setShow] = useState(false);
@@ -17,33 +18,35 @@ const Login = () => {
         onHide={handleClose}
         backdrop="static" //for close just with button
         keyboard={false} //for dont close with Esc on keyboard
-        centered //for center align modal
-        className="my-modal"
+        // centered //for center align modal
+        className="my-modal my-rounded"
       >
-        <Modal.Header
-          closeButton
-          closeVariant="white"
-          className="my-modal text-white"
-        >
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
-        <Modal.Body className="my-modal text-white">Login</Modal.Body>
-        <Modal.Footer className="my-modal text-white">
-          <Button
-            variant="secondary"
-            className="gray-button"
-            onClick={handleClose}
-          >
-            Close
-          </Button>
-          <Button
-            variant="primary"
-            className="blue-button"
-            onClick={handleClose}
-          >
-            Save Changes
-          </Button>
-        </Modal.Footer>
+        <Modal.Body className="my-modal text-white my-rounded">
+          <h1 className="text-center mt-2 mb-4">
+            Login <span className="text-primary">Page</span>
+          </h1>
+          <LoginBody />
+          <div className="login-buttons-block mt-3 mb-3">
+            <Col className="my-1 px-3 d-flex justify-content-center">
+              <Button
+                variant="primary"
+                className="blue-button blue-button-login w-100"
+                onClick={handleClose}
+              >
+                Login
+              </Button>
+            </Col>
+            <Col className="my-1 px-3 d-flex justify-content-center">
+              <Button
+                variant="secondary"
+                className="gray-button w-100"
+                onClick={handleClose}
+              >
+                Close
+              </Button>
+            </Col>
+          </div>
+        </Modal.Body>
       </Modal>
     </>
   );

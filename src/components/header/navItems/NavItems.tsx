@@ -27,7 +27,9 @@ const NavItems = () => {
               <Link key={item.id} href={item.href}>
                 <a
                   className={
-                    active === item.id ? "nav-link active" : "nav-link"
+                    active === item.id
+                      ? "nav-link mx-2 nav-items-font active"
+                      : "nav-link mx-2 nav-items-font"
                   }
                   onClick={() => {
                     setActive(item.id);

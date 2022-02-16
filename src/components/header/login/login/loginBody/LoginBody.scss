@@ -1,0 +1,22 @@
+@import "../../../../../styles/index";
+
+.my-form-control {
+  border-radius: 12px !important;
+  background-color: $gray !important;
+  border: 0 !important;
+  color: $white;
+  &::placeholder {
+    color: $form-placeholder;
+    border: $form-border !important;
+    outline: $form-border !important;
+  }
+  &:focus {
+    color: none;
+    border: none;
+    outline: none;
+  }
+}
+
+.modal-content {
+  border-radius: 25px !important;
+}

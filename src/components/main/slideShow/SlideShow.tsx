@@ -20,7 +20,7 @@ const SlideShow = () => {
   ];
 
   return (
-    <Col className="ms-2 my-3 rounded my-rounded bg-dark" xxl="6">
+    <Col className="ms-2 my-3 rounded my-rounded bg-darker" xxl="6">
       <div className="my-rounded">
         <Carousel className="my-rounded" fade>
           {items.map((item) => (

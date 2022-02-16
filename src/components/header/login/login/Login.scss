@@ -1,5 +1,15 @@
 @import "../../../../styles/index";
 
-.modal-content{
-    background-color: $bg-dark !important;
+.modal-content {
+  background-color: $bg-dark !important;
+}
+
+.login-buttons-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blue-button-login {
+  margin: 0;
 }

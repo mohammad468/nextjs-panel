@@ -1,0 +1,20 @@
+@import "../../../../../styles/index";
+
+div {
+  border-radius: 12px !important;
+  .validate-input {
+    background: none;
+    border: none;
+    outline: none;
+    color: $form-placeholder;
+    &::placeholder {
+      color: $form-placeholder;
+      font-size: 2rem;
+    }
+  }
+}
+
+my-form-control-validate {
+  display: flex;
+  justify-content: center;
+}

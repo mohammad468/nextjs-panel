@@ -5,6 +5,8 @@ $white: #ffffff;
 $bg-dark: #1a1d22;
 $bg-darker: #14161a;
 $bg-dark-hover: #2a2f39;
+$form-placeholder: #ffffff7e;
+$form-border: #ffffff7e;
 
 .bg-darker {
   background-color: $bg-darker;
@@ -12,6 +14,14 @@ $bg-dark-hover: #2a2f39;
 
 .bg-dark {
   background-color: $bg-dark;
+}
+
+.rounded {
+  border-radius: 30px !important;
+}
+
+.nav-link {
+  font-size: 1.2rem !important;
 }
 
 @import "../node_modules//bootstrap/scss/bootstrap.scss";
