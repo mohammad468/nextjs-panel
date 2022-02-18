@@ -6,7 +6,7 @@ import type { AppProps } from "next/app";
 import "../components/header/TopHeader.scss";
 import "../components/buttons/blueButton/BlueButton.scss";
 import "../components/buttons/grayButton/GrayButton.scss";
-import "../components/header/navItems/NavItems.scss";
+import "../components/header/navItems/Navitems.scss";
 import "../components/header/login/login/Login.scss";
 import "../components/left-nav/LeftNav.scss";
 import "../components/product/Product.scss";
